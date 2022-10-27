@@ -10,8 +10,11 @@ body {
     width: 100%;
     margin: auto;
 }
-secion {
+section {
     padding:0px;
+}
+div {
+    padding: 0;
 }
 /* nav ehelj bna  */
  nav ul {
@@ -33,12 +36,12 @@ secion {
     right: 20px;
     bottom: 20px;
 }
-.galaxy_text {
- position: absolute;
- margin-left:0px;
+
+
+.flip44 {
+    position: absolute;
+
 }
-
-
 .top_menu {
     width: 100%;
     max-width: 1920px;
@@ -136,4 +139,22 @@ li{
     width: 10%;
   display: flex;
   justify-content: space-between;
+}
+.bot {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.bot p {
+    width: 130px;
+    
+}
+.samsung {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.samsung img {
+    width: 86px;
+    height: 12px;
 }
